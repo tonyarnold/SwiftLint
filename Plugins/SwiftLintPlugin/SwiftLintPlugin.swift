@@ -28,6 +28,7 @@ struct SwiftLintPlugin: BuildToolPlugin {
         var arguments = [
             "lint",
             "--quiet",
+            "--force-exclude",
             "--cache-path", "\(workingDirectory)"
         ]
 
